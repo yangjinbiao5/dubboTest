@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/bootconsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bootprovider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbotest" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
