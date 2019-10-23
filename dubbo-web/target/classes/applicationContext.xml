@@ -27,7 +27,7 @@
 
     <import resource="application-datasource.xml"/>
 
-    <import resource="application-servlet.xml"/>
+   <!-- <import resource="application-servlet.xml"/>-->
 
     <import resource="application-dubbo-consumer.xml"/>
 

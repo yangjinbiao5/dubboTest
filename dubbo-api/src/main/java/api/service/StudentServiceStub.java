@@ -26,7 +26,6 @@ public class StudentServiceStub implements StudentService {
     @Override
     public Student findStudent(int id) {
         System.out.println("api 里面的 本地存根");
-
         return studentService.findStudent(id);
     }
 

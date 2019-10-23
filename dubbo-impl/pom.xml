@@ -178,6 +178,19 @@
             <version>1.8.3</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-catalina-jmx-remote</artifactId>
+            <version>9.0.14</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>4.5.15</version>
+        </dependency>
+
+
     </dependencies>
     
 </project>

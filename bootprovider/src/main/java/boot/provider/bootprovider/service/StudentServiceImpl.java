@@ -14,7 +14,9 @@ import org.springframework.stereotype.Component;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.Locale;
 
 
@@ -33,19 +35,20 @@ public class StudentServiceImpl implements StudentService {
     @Override
     public Student findStudent(int id) {
 
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
         System.out.println("实现方法 ：");
-        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        System.out.println(df.format(new Date()));
+
+        System.out.println(System.currentTimeMillis());
 
 
+        List<String> list = new ArrayList<String>();
+        for (int i =0;i<1000;i++){
+            list.add(new String(""));
+        }
         Student student = new Student();
         student.setAge(12);
         student.setName("jack!!");
+
 
         return student;
     }
