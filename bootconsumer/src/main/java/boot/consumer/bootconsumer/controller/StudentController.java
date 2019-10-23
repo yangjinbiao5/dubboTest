@@ -23,6 +23,7 @@ import java.util.Locale;
  *@Author : yangjinbiao
  *@Date : 5/25/2019 12:33 AM
  **/
+
 @Controller
 public class StudentController {
 
@@ -33,13 +34,8 @@ public class StudentController {
     @ResponseBody
     public Student init(){
         System.out.println("controller");
-        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        System.out.println(df.format(new Date()));
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        System.out.println(System.currentTimeMillis());
+
         return studentService.findStudent(1);
     }
 }
